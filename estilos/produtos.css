@@ -29,7 +29,7 @@ section{
     display: flex;
 }
 
-article#produtos{
+article#menu{
     padding: 25px;
     border-right: 1px solid black;
     height: 100vh;
@@ -40,30 +40,25 @@ article#produtos{
 
 
 }
-article#produtos h2{
+article#menu h2{
     margin: 0px 30px 10px 0px;
     text-decoration: underline;
     text-decoration-color: rgb(131, 131, 131);
     
 }
 
-article#produtos ul li{
-    margin: 10px;
-}
-article#img_produtos{
+
+article#produtos{
     margin: auto;
-    
-
-}
-
-
-table tr{
-    
     display: flex;
-
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
 }
 
-table tr td{
+
+.produto{
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -73,15 +68,15 @@ table tr td{
     
 }
 
-table tr td img{
+.produto img{
     width: 200px;
     margin: auto;
 }
 
 
-table tr td p.precoan{
+.produto p.precoan{
     text-decoration: line-through ;
-    color: red;
+    color: rgb(255, 0, 0);
     font-size: 0.8em;
     margin-top: 20px;
 }
